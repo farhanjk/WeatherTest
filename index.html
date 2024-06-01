@@ -37,7 +37,7 @@
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ question: 'First very briefly summarize the weather for today and tommorrow. Alos briefly touch on if it is windy. Then give me a quirky statement about the weather today. Max 150 letters. Intended for a Pakistani 10 year old girl. The girl\'s name is Zoe. She appreciates religion, science, maths, and kids philosophy. Just keep it simpler.' })
+                    body: JSON.stringify({ question: 'First very briefly summarize the weather for today and tommorrow. Alos briefly touch on if it is windy. Then give me a quirky statement about the weather today. Max 150 letters. Intended for a Pakistani 10 year old girl. The girl\'s name is Zoe. She appreciates religion, science, maths, and kids philosophy. Just keep it simpler and shorter for a 10 year old please.' })
                 });
                 const data = await response.json();
                 responseDiv.innerText = data.statement;
